@@ -7,6 +7,7 @@
     "bcrypt": "^5.0.0",
     "ckey": "^1.0.2",
     "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1"
@@ -14,7 +15,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "nodemon server.js",
-    "dev": "concurrently \"npm start\" \"npm --prefix ./client run start\""
+    "dev": "concurrently \"npm start\" \"npm --prefix ./client run start\"",
+    "client-install": "npm install --prefix client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
