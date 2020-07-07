@@ -1,0 +1,97 @@
+.login-notif-error {
+    font-size: 11px;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin: auto;
+    width: 335px;
+    margin-top: 20px;
+    color: #A94465;
+    border: 1px solid #A94465;
+    background-color: #F2DEDE;
+};
+
+.login-notif-success {
+    font-size: 11px;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin: auto;
+    width: 335px;
+    margin-top: 20px;
+    color: #43A047;
+    border: 1px solid #43A047;
+    background-color: #C8E6C9;
+};
+
+.loading {
+    font-size: 20px;
+    margin-left: 5px;
+};
+
+form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    border: thin solid #E4E5E6;
+    width: 280px;
+    margin: auto;
+    margin-top: 170px;
+    padding: 20px 40px 40px 40px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px -1px rgb(102, 101, 101);
+
+    .input-container {
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+
+        .icon {
+            padding: 8px 15px;
+            background: #000000;
+            color: #ffffff;
+            margin-top: 5px;
+            text-align: center;
+        }
+    }
+
+    h1 {
+        color: #DF3E00;
+    };
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    };
+
+    input {
+        font-size: 12px;
+        outline: none;
+        width: 250px;
+        padding: 8px 10px;
+        margin-top: 5px;
+        border: 1px solid #dddddd;
+        border-radius: 0px 3px 3px 0px;
+        color: #00000081;
+    };
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    };
+
+    button {
+        margin-top: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 3px;
+        border: 0px;
+        padding: 8px 20px;
+        cursor: pointer;
+        outline: none;
+        white-space: nowrap;
+        text-decoration: none;
+        text-align: center;
+        color: #ffffff;
+        background-color: #DF3E00;
+    };
+};
