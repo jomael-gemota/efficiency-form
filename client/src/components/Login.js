@@ -38,7 +38,7 @@ class Login extends Component {
             if (res.data.success === 0) {
                 this.setState({
                     isLoading: '',
-                    message: <p className="login-notif-error">{res.data.message}</p>
+                    message: <p className="login-notif-error">{JSON.stringify(res.data.message)}</p>
                 });
 
                 this.props.history.push('/');

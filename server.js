@@ -6,7 +6,7 @@ const userRouter = require('./api/user/user.router');
 const formRouter = require('./api/form/form.router');
 
 const app = express();
-app.set('port', process.env.PORT || key.SERVER_PORT);
+app.set('port', process.env.PORT || 5000);
 
 app.use(express.json());
 app.use('/api/user', userRouter);

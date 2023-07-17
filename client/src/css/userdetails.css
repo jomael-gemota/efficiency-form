@@ -1,8 +1,8 @@
 .user-details-wrapper {
+  width: 510px;
   font-size: 12px;
   margin: auto;
   margin-top: 10px;
-  margin-left: 515px;
 }
 
 .user-details-wrapper strong {
